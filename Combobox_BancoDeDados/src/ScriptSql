@@ -1,0 +1,11 @@
+CREATE DATABASE  IF NOT EXISTS `teste` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `teste`;
+CREATE TABLE  empresa_teste 
+(id INT AUTO_INCREMENT,
+ cargo VARCHAR(100), 
+PRIMARY KEY (id));
+
+INSERT INTO empresa_teste(cargo) VALUES('ANALISTA DE SISTEMAS');
+INSERT INTO empresa_teste(cargo) VALUES('WEB DESIGN');
+INSERT INTO empresa_teste(cargo) VALUES('PROGRAMADOR JAVA');
+INSERT INTO empresa_teste(cargo) VALUES('TECNICO EM INFORMATICA');
