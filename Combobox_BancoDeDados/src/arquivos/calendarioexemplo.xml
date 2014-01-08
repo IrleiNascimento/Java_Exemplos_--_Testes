@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<calendario>
+<versao>4.3</versao>
+<ano>2020</ano>
+<campus>Porto Seguro</campus>
+<descricao><![CDATA[Calendário letivo do IFBA - Campus de Porto Seguro-BA, para Licenciatura em Computação ano de 2015]]></descricao>
+<propriedades>
+<item>
+<descricao>Dias Letivos</descricao> 
+<cor><![CDATA[#0000FF]]></cor> 
+<dia></dia>
+</item>
+<item>
+<descricao>Dias Não Letivos</descricao>
+<cor><![CDATA[#00FF00]]></cor>
+<dia><![CDATA[2,1,2,8:16#3,28:30#4,22#5,1,30#6,24#7,2#8,15:17#9,7#10,12,28#11,2,15#12,24:31]]></dia>
+</item>
+<item>
+<descricao>Ferias Docentes</descricao>
+<cor><![CDATA[#FFFFE0]]></cor>
+<dia><![CDATA[1,2:31#7,14:26#2,0,1]]></dia>
+</item>
+<item>
+<descricao>Inicio de Semestre</descricao> 
+<cor><![CDATA[#FFFF00]]></cor>
+<dia><![CDATA[3,24#8,25]]></dia>
+</item>
+<item>
+<descricao>Fim de Semestre</descricao> 
+<cor><![CDATA[#191970]]></cor> 
+<dia><![CDATA[3,14#8,9#12,19]]></dia>
+</item>
+<item>
+<descricao>Provas Finais</descricao> 
+<cor><![CDATA[#20B2AA]]></cor> 
+<dia><![CDATA[3,17,18,19#8,11,12,13#12,0,21,23]]></dia>
+</item>
+<item>
+<descricao>Rematrícula</descricao> 
+<cor><![CDATA[#D2691E]]></cor> 
+<dia><![CDATA[3,20,21,22#8,18,19,20]]></dia>
+</item>
+</propriedades>
+</calendario>
+<curso>
+ <atualizacao>3</atualizacao>
+<descricao>Licenciatura em Computacao</descricao> 
+<modalidade>Superior</modalidade>
+<divperiodo>Módulos</divperiodo>
+<periodos>
+<periodo>
+<numero>1</numero>
+<disciplinas>
+<disciplina>
+<numero>1</numero>
+<descricao>Algoritmo</descricao>
+<codigo>ALG</codigo>
+<creditos>4</creditos>
+<classificacao>NB</classificacao>
+<cargahoraria>60</cargahoraria>
+<prerequisito></prerequisito>
+</disciplina>
+<disciplina>
+<numero>2</numero>
+<descricao>Logica Matemática</descricao>
+<codigo>LGM</codigo>
+<creditos>4</creditos>
+<classificacao>NB</classificacao>
+<cargahoraria>40</cargahoraria>
+<prerequisito></prerequisito>
+</disciplina>
+<disciplina>
+<numero>3</numero>
+<descricao>Historia da Educação</descricao>
+<codigo>HED</codigo>
+<creditos>4</creditos>
+<classificacao>NH</classificacao>
+<cargahoraria>40</cargahoraria>
+<prerequisito></prerequisito>
+</disciplina>
+</disciplinas>
+</periodo>
+<periodo>
+<numero>2</numero>
+<disciplinas>
+<disciplina>
+<numero>1</numero>
+<descricao>Filosofia da Educação</descricao>
+<codigo>FED</codigo>
+<creditos>4</creditos>
+<classificacao>NH</classificacao>
+<cargahoraria>40</cargahoraria>
+<prerequisito>Historia da Educação</prerequisito>
+</disciplina>
+<disciplina>
+<numero>2</numero>
+<descricao>Psicologia da Educação</descricao>
+<codigo>PSE</codigo>
+<creditos>4</creditos>
+<classificacao>NH</classificacao>
+<cargahoraria>40</cargahoraria>
+<prerequisito>Historia da Educação</prerequisito>
+</disciplina>
+</disciplinas>
+</periodo>
+</periodos> 
+</curso>
+<destaques>
+<atualizacao>1</atualizacao>
+<item>
+<id>1</id>
+<mes>1</mes>
+<dia>1</dia>
+<destaquedescr><![CDATA[Feriado – Confraternização Universal ]]></destaquedescr>
+</item>
+<item>
+<id>2</id>
+<mes>1</mes>
+<dia>2a1</dia>
+<destaquedescr><![CDATA[Férias docentes (31 dias)]]></destaquedescr>
+</item>
+<item>
+<id>3</id>
+<mes>2</mes>
+<dia>4</dia>
+<destaquedescr><![CDATA[Reinício das aulas do Semestre 2012.2 ]]></destaquedescr>
+</item>
+<item>
+<id>4</id>
+<mes>2</mes>
+<dia>8a15</dia>
+<destaquedescr><![CDATA[Recesso de Carnaval]]></destaquedescr>
+</item>
+<item>
+<id>5</id>
+<mes>3</mes>
+<dia>15</dia>
+<destaquedescr><![CDATA[Último dia letivo – Semestre 2012.2]]></destaquedescr>
+</item>
+<item>
+<id>6</id>
+<mes>3</mes>
+<dia>20a22</dia>
+<destaquedescr><![CDATA[Rematrículas ]]></destaquedescr>
+</item>
+<item>
+<id>7</id>
+<mes>3</mes>
+<dia>28a30</dia>
+<destaquedescr><![CDATA[Feriado - Semana Santa ]]></destaquedescr>
+</item>
+<item>
+<id>8</id>
+<mes>3</mes>
+<dia>25</dia>
+<destaquedescr><![CDATA[Início das aulas do Semestre 2013.1 ]]></destaquedescr>
+</item>
+<item>
+<id>9</id>
+<mes>3</mes>
+<dia>25a27</dia>
+<destaquedescr><![CDATA[Solicitação de Aproveitamento de Estudos ]]></destaquedescr>
+</item>
+<item>
+<id>10</id>
+<mes>3</mes>
+<dia>0</dia>
+<destaquedescr><![CDATA[# Seminário de práticas de ensino ]]></destaquedescr>
+</item>
+<item>
+<id>11</id>
+<mes>4</mes>
+<dia>22</dia>
+<destaquedescr><![CDATA[Feriado – Descobrimento do Brasil ]]></destaquedescr>
+</item>
+<item>
+<id>12</id>
+<mes>4</mes>
+<dia>26</dia>
+<destaquedescr><![CDATA[Último dia para solicitação de Trancamento de matrícula ]]></destaquedescr>
+</item>
+<item>
+<id>13</id>
+<mes>5</mes>
+<dia>1</dia>
+<destaquedescr><![CDATA[Feriado – Dia do Trabalho ]]></destaquedescr>
+</item>
+<item>
+<id>14</id>
+<mes>5</mes>
+<dia>30</dia>
+<destaquedescr><![CDATA[ Feriado – Corpus Christi ]]></destaquedescr>
+</item>
+<item>
+<id>15</id>
+<mes>6</mes>
+<dia>24</dia>
+<destaquedescr><![CDATA[ Feriado - São João ]]></destaquedescr>
+</item>
+<item>
+<id>16</id>
+<mes>7</mes>
+<dia>2</dia>
+<destaquedescr><![CDATA[ 02 – Feriado - Independência da Bahia ]]></destaquedescr>
+</item>
+<item>
+<id>17</id>
+<mes>7</mes>
+<dia>15a28</dia>
+<destaquedescr><![CDATA[ Férias docentes]]></destaquedescr>
+</item>
+<item>
+<id>18</id>
+<mes>7</mes>
+<dia>29</dia>
+<destaquedescr><![CDATA[Reinício das aulas – Continuação do Semestre 2013.1 ]]></destaquedescr>
+</item>
+<item>
+<id>19</id>
+<mes>8</mes>
+<dia>10</dia>
+<destaquedescr><![CDATA[Último dia letivo – Semestre 2013.1 ]]></destaquedescr>
+</item>
+<item>
+<id>20</id>
+<mes>8</mes>
+<dia>12a14</dia>
+<destaquedescr><![CDATA[Provas Finais ]]></destaquedescr>
+</item>
+<item>
+<id>21</id>
+<mes>8</mes>
+<dia>15</dia>
+<destaquedescr><![CDATA[Feriado – N. Sra. D´Ajuda 16/08 – Ponte ]]></destaquedescr>
+</item>
+<item>
+<id>22</id>
+<mes>8</mes>
+<dia>19a20</dia>
+<destaquedescr><![CDATA[Rematrículas]]></destaquedescr>
+</item>
+<item>
+<id>23</id>
+<mes>8</mes>
+<dia>21</dia>
+<destaquedescr><![CDATA[Início das aulas do Semestre 2013.2 ]]></destaquedescr>
+</item>
+<item>
+<id>24</id>
+<mes>8</mes>
+<dia>21</dia>
+<destaquedescr><![CDATA[Solicitação de Aproveitamento de Estudos ]]></destaquedescr>
+</item>
+<item>
+<id>25</id>
+<mes>8</mes>
+<dia>0</dia>
+<destaquedescr><![CDATA[ # Workshop das Licenciaturas ]]></destaquedescr>
+</item>
+<item>
+<id>26</id>
+<mes>9</mes>
+<dia>7</dia>
+<destaquedescr><![CDATA[Feriado – Independência do Brasil ]]></destaquedescr>
+</item>
+<item>
+<id>27</id>
+<mes>9</mes>
+<dia>20</dia>
+<destaquedescr><![CDATA[ 20 - Último dia para solicitação de Trancamento de Matrícula ]]></destaquedescr>
+</item>
+<item>
+<id>28</id>
+<mes>10</mes>
+<dia>12</dia>
+<destaquedescr><![CDATA[Feriado – N. Sra. Aparecida ]]></destaquedescr>
+</item>
+<item>
+<id>29</id>
+<mes>10</mes>
+<dia>28</dia>
+<destaquedescr><![CDATA[Feriado – Servidor Público ]]></destaquedescr>
+</item>
+<item>
+<id>30</id>
+<mes>11</mes>
+<dia>1</dia>
+<destaquedescr><![CDATA[Feriado - Finados ]]></destaquedescr>
+</item>
+<item>
+<id>31</id>
+<mes>11</mes>
+<dia>15</dia>
+<destaquedescr><![CDATA[Feriado – Proclamação da República ]]></destaquedescr>
+</item>
+<item>
+<id>32</id>
+<mes>11</mes>
+<dia>0</dia>
+<destaquedescr><![CDATA[# Seminário de práticas de ensino ]]></destaquedescr>
+</item>
+<item>
+<id>33</id>
+<mes>12</mes>
+<dia>20</dia>
+<destaquedescr><![CDATA[Último dia letivo – Semestre 2013.2 ]]></destaquedescr>
+</item>
+<item>
+<id>34</id>
+<mes>12</mes>
+<dia>21a23</dia>
+<destaquedescr><![CDATA[21 e 23 – Provas Finais ]]></destaquedescr>
+</item>
+<item>
+<id>35</id>
+<mes>12</mes>
+<dia>24a1</dia>
+<destaquedescr><![CDATA[24/12/2013 a 01/01/2014 – Recesso de Natal e Reveillon ]]></destaquedescr>
+</item>
+</destaques> 
+<instituicao><atualizacao>3</atualizacao><nome>Instituto Federal de Ciência e Tecnologia da Bahia</nome><campus>Porto Seguro</campus><endereco>BR 367 - Fontana 1</endereco><contato><telefones><telefone>07332882222</telefone><telefone>07332885555</telefone><telefone>07332883333</telefone></telefones><email>email@hotmail.com</email> <website>www.ifba.edu.br</website><redesocial><link>www.facebook.com</link><link>www.google.com</link><link>www.twitter.com</link></redesocial></contato></instituicao>
+</root>
