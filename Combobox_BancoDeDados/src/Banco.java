@@ -21,7 +21,7 @@ public class Banco {
             Connection conexao  = DriverManager.getConnection(BANCO,USER,SENHA);            
             ResultSet rs = conexao.createStatement().executeQuery("SELECT cargo FROM empresa_teste"); // SELECIONE OS DADOS DA TABELA QUE VOCE QUER MOSTRAR
             while (rs.next()) {
-                comboBox.addItem(rs.getString("cargo")); //CARREGANDO A COMOBOBOX COM OS DADOS
+                comboBox.addItem(rs.getString("cargo")); //CARREGANDO A COMBOBOX COM OS DADOS
              }  
             conexao.close();
         } catch (SQLException e) {
@@ -32,7 +32,7 @@ public class Banco {
                     + "Usuario e senha estão corretos;\n\n"
                     + ""
                     + "Resumo:\nConexão:   "+BANCO+"\n User:   "+USER+"\nSenha:  "+SENHA+""); 
-        System.exit(0);
+
         }        
     }
 }
